@@ -1,0 +1,92 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: auto;
+    margin: 2%;
+    padding: 10px;
+    background-image: linear-gradient(to right, rgb(108, 177, 204) , pink);
+}
+
+h1{
+    height: 20%;
+    font-size: 3em; 
+    font-style: italic;
+    margin: 1%;
+    color: rgb(182, 77, 129);
+}
+
+h1 small{
+    font-size: 30px;
+}
+
+h2{
+    margin: 1%;
+    color: darkslategrey;
+    text-align: center;
+    font-size: 30px;
+}
+
+h3{
+    margin: 1%;
+    text-decoration: underline dotted;
+    color: darkslategrey;
+    text-align: Left;
+    font-size: 20px;
+}
+
+.container {
+    box-shadow: 0px 0px 50px 10px rgba(153,153,153,1);
+	border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(200, 138, 148);
+    background-color: rgb(248, 239, 239);
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0px 0px 50px 10px rgba(153,153,153,1);
+}
+
+#display {
+    text-align: right;
+    height: 90px;
+    line-height: 100px;
+    padding: 16px 8px;
+    font-size: 25px;
+}
+
+.buttons {
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid#999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons > div {
+    border-top: 1px solid #999;
+    border-right: 1px solid#999;
+}
+
+.button {
+    border: 0.5px solid #999;
+    line-height: 100px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#equal {
+    background-color: rgb(85, 85, 255);
+    color: white;
+}
+
+.button:hover {
+    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
